@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <h1>Menu</h1>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/pages/product.html">Product</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+        <li>
+            <a href="/pages/help/help.html">Help</a>
+        </li>
+    </ul>
+    <h1>Szöveg formázása</h1>
+    <ul>
+        <li>
+            <h3>font-family:</h3> parancsal (CTRL+space előhozza a súgót)
+            <h4>Többet is meg lehet adni vesszővel elválasztva, az fog megjelenni ami a gépen rajta van!</h4>
+        </li>
+        <li>
+            <h3>@font-face</h3> -Ezzel lehet megadni új betűtipust 
+            <h5>font-familyvel meg kell adni a nevét</h5>
+            <h5>majd src-vel, hogy honnan kell betölteni</h5>
+            <h5>Aztán font-weight-el a betű vastagságát</h5>
+            <h3>Pl:</h3><img src="/img/fontfamily.jpg" alt="no pictures">
+            <h5>Használatkor alkalmazni kell az idézőjeleket!!!</h5>
+        </li>
+        <li>
+            <h3>Formázások</h3>
+            <img src="/img/form.jpg" alt="no pictures">
+            <ul>
+                <li>
+                    <h3>text-align:</h3> - szöveg igazítása (left, right, center, justify)
+                </li>
+                <li>
+                    <h3>text-transform:</h3> - szöveg formázása (norm, capitalize, uppercase, lowercase)
+                </li> 
+                <li>
+                    <h3>line-height:</h3> - sormagasság megadása
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>külső betűtípusok használata</h3>
+            pl <a target="blank" href="https://fonts.google.com">Google fonts</a>
+            <h3>Ha megtaláltuk a megfelelőt + gombbal hozzáadjuk.</h3>
+            <h3>Family selectnél vagy letöltöm vagy használom a hivatkozást</h3>
+            <h3>Letöltésnél ->felhasználás font-faceval</h3>
+            <h3>hivatkozásnál @import-tal</h3>
+        </li>
+        <li>
+            <h3>Id megadása a formázáshoz</h3>
+            <ul>
+                <li>
+                    <h3>Id</h3> -azonosító, ami pontosan beazonosítja az elemet
+            1 oldalon belül csak különböző Id-k használhatók!
+                </li>
+                <li>
+                    <h3>Id megadása a formázott attributumban.</h3>
+                </li>
+                <li>
+                    <h3>Majd a CSS fileban #[idnév]-el meg kell ahtározni a formázást</h3>
+                </li>
+            </ul>
+            <h3>Csoportokat megadhatunk class= osztályozással</h3> -ami abban a csoportban van, az úgy lesz formázva ahogy beleírtuk.
+            <h5>Megadása CSS-ben .[név]</h5>
+            <h3>css-ben a # id alapján a . class alapján keresi az elemekt.</h3>
+        </li>
+    </ul>
+</body>
+</html>
